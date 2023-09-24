@@ -1,0 +1,172 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\ChessWood\\chess-passport\\ChessWood.Passport.Infrastructure\\ChessWood.Passport.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "E:\\ChessWood\\chess-passport\\ChessWood.Passport.Domain\\Mongo.Passport.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\ChessWood\\chess-passport\\ChessWood.Passport.Domain\\Mongo.Passport.Domain.csproj",
+        "projectName": "Mongo.Passport.Domain",
+        "projectPath": "E:\\ChessWood\\chess-passport\\ChessWood.Passport.Domain\\Mongo.Passport.Domain.csproj",
+        "packagesPath": "C:\\Users\\VINKOS\\.nuget\\packages\\",
+        "outputPath": "E:\\ChessWood\\chess-passport\\ChessWood.Passport.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\VINKOS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dotseed.Domain": {
+              "target": "Package",
+              "version": "[0.1.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            },
+            "Mongo.Migration": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.32.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\ChessWood\\chess-passport\\ChessWood.Passport.Infrastructure\\ChessWood.Passport.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\ChessWood\\chess-passport\\ChessWood.Passport.Infrastructure\\ChessWood.Passport.Infrastructure.csproj",
+        "projectName": "ChessWood.Passport.Infrastructure",
+        "projectPath": "E:\\ChessWood\\chess-passport\\ChessWood.Passport.Infrastructure\\ChessWood.Passport.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\VINKOS\\.nuget\\packages\\",
+        "outputPath": "E:\\ChessWood\\chess-passport\\ChessWood.Passport.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\VINKOS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\ChessWood\\chess-passport\\ChessWood.Passport.Domain\\Mongo.Passport.Domain.csproj": {
+                "projectPath": "E:\\ChessWood\\chess-passport\\ChessWood.Passport.Domain\\Mongo.Passport.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Calabonga.UnitOfWork.MongoDb": {
+              "target": "Package",
+              "version": "[1.4.1, )"
+            },
+            "Dotseed.Context": {
+              "target": "Package",
+              "version": "[0.1.2, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.21.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

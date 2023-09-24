@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Mongo.Passport.Api.props" />
+</Project>

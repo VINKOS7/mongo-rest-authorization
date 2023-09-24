@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="EntityConfigurations\**" />
+    <EmbeddedResource Remove="EntityConfigurations\**" />
+    <None Remove="EntityConfigurations\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Calabonga.UnitOfWork.MongoDb" Version="1.4.1" />
+    <PackageReference Include="Dotseed.Context" Version="0.1.2" />
+    <PackageReference Include="MediatR" Version="12.1.1" />
+    <PackageReference Include="MongoDB.Driver" Version="2.21.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mongo.Passport.Domain\Mongo.Passport.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="HttpClients\YandexCaptcha\Models\" />
+  </ItemGroup>
+
+</Project>

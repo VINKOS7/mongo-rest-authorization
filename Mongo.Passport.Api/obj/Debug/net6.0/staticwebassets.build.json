@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "nr+N5qDkWCMb4gXq9PKLaSvaTcHdoEy1vfclyBE/xTA=",
+  "Source": "Mongo.Passport.Api",
+  "BasePath": "_content/Mongo.Passport.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

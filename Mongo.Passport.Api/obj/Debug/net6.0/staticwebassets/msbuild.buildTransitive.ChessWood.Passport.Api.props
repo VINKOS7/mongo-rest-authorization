@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\ChessWood.Passport.Api.props" />
+</Project>
